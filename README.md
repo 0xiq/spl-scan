@@ -12,21 +12,21 @@ Scans a Solana token's top holders and saves their wallet addresses to `wallets.
 ## Usage
 
 1. Install dependencies:
-   ```bash
-    pip install requests
-   ```
+```bash
+pip install requests
+```
 
 
 2.	Set up config.py:
-   ```bash
-    RPC = "https://your-rpc-url"
-    MINT = "YourTokenMintAddress"
-    TOP_N = 100
-   ```
+```bash
+RPC = "https://your-rpc-url"
+MINT = "YourTokenMintAddress"
+TOP_N = 100
+```
 
 3. Run the script:
-    ```bash
-    python3 scan.py
-    ```
+```bash
+python3 scan.py
+```
 
 
